@@ -1,0 +1,21 @@
+# Controlli automatici (generico, uguale per ogni sito del template: nessun nome o percorso fisso).
+# Ad ogni push/PR e a mano da Actions > Controlli > Run workflow esegue: python automation/sviluppa.py --solo-controlli
+# Verifica JSON validi, testo corrotto e post con data futura (Jekyll non li pubblica). NON modifica il repo, non fa commit.
+# Le foto con Gemini NON girano qui (servono i cookie Google del PC): vedi IMMAGINI.md.
+name: Controlli
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  controlli:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Controlli contenuti
+        run: python automation/sviluppa.py --solo-controlli
