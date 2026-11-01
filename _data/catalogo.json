@@ -2,33 +2,576 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "Spezie",
+      "id": "spezie",
+      "icona": "🌶️",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Spices"
+        }
+      }
+    },
+    {
+      "nome": "Erbe aromatiche",
+      "id": "erbe-aromatiche",
+      "icona": "🌿",
+      "tr": {
+        "en": {
+          "nome": "Herbs"
+        }
+      }
+    },
+    {
+      "nome": "Pepi e peperoncini",
+      "id": "pepi-peperoncini",
+      "icona": "🌶️",
+      "tr": {
+        "en": {
+          "nome": "Peppers and chillies"
+        }
+      }
+    },
+    {
+      "nome": "Miscele e insaporitori",
+      "id": "miscele-insaporitori",
+      "icona": "🧂",
+      "tr": {
+        "en": {
+          "nome": "Blends and seasonings"
         }
       }
     }
   ],
   "prodotti": [
     {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "tipo": "fisico",
+      "id": "aglio-granulare",
+      "nome": "Aglio granulare",
+      "categoria": "spezie",
+      "prezzo_centesimi": 249,
+      "descrizione": "Per sughi, arrosti e verdure. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Aglio granulare nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer sughi, arrosti e verdure.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
       "immagine": "",
-      "icona": "🛍️",
+      "icona": "🧄",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "Granulated garlic",
+          "descrizione": "For sauces, roasts and vegetables. Resealable pouch with clip.",
+          "descrizione_completa": "Granulated garlic in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor sauces, roasts and vegetables.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cannella-bastoncini",
+      "nome": "Cannella in bastoncini",
+      "categoria": "spezie",
+      "prezzo_centesimi": 299,
+      "descrizione": "Per dolci, vin brulé e infusi. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Cannella in bastoncini nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer dolci, vin brulé e infusi.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🪵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Cinnamon sticks",
+          "descrizione": "For desserts, mulled wine and infusions. Resealable pouch with clip.",
+          "descrizione_completa": "Cinnamon sticks in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor desserts, mulled wine and infusions.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cannella-macinata",
+      "nome": "Cannella macinata",
+      "categoria": "spezie",
+      "prezzo_centesimi": 249,
+      "descrizione": "Per dolci, creme e colazioni. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Cannella macinata nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer dolci, creme e colazioni.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🪵",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ground cinnamon",
+          "descrizione": "For desserts, creams and breakfasts. Resealable pouch with clip.",
+          "descrizione_completa": "Ground cinnamon in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor desserts, creams and breakfasts.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "curcuma-macinata",
+      "nome": "Curcuma macinata",
+      "categoria": "spezie",
+      "prezzo_centesimi": 279,
+      "descrizione": "Per risotti, zuppe e golden milk. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Curcuma macinata nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer risotti, zuppe e golden milk.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🟡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ground turmeric",
+          "descrizione": "For risottos, soups and golden milk. Resealable pouch with clip.",
+          "descrizione_completa": "Ground turmeric in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor risottos, soups and golden milk.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "zenzero-macinato",
+      "nome": "Zenzero macinato",
+      "categoria": "spezie",
+      "prezzo_centesimi": 279,
+      "descrizione": "Per biscotti, infusi e piatti orientali. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Zenzero macinato nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer biscotti, infusi e piatti orientali.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🫚",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ground ginger",
+          "descrizione": "For biscuits, infusions and Asian dishes. Resealable pouch with clip.",
+          "descrizione_completa": "Ground ginger in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor biscuits, infusions and Asian dishes.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "noce-moscata",
+      "nome": "Noce moscata macinata",
+      "categoria": "spezie",
+      "prezzo_centesimi": 299,
+      "descrizione": "Per besciamella, ripieni e dolci. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Noce moscata macinata nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer besciamella, ripieni e dolci.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌰",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ground nutmeg",
+          "descrizione": "For béchamel, fillings and desserts. Resealable pouch with clip.",
+          "descrizione_completa": "Ground nutmeg in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor béchamel, fillings and desserts.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "cumino-macinato",
+      "nome": "Cumino macinato",
+      "categoria": "spezie",
+      "prezzo_centesimi": 249,
+      "descrizione": "Per legumi, carni e piatti speziati. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Cumino macinato nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer legumi, carni e piatti speziati.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌾",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ground cumin",
+          "descrizione": "For legumes, meats and spiced dishes. Resealable pouch with clip.",
+          "descrizione_completa": "Ground cumin in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor legumes, meats and spiced dishes.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "coriandolo-macinato",
+      "nome": "Coriandolo macinato",
+      "categoria": "spezie",
+      "prezzo_centesimi": 249,
+      "descrizione": "Per curry, marinate e pane. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Coriandolo macinato nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer curry, marinate e pane.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌾",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ground coriander",
+          "descrizione": "For curries, marinades and bread. Resealable pouch with clip.",
+          "descrizione_completa": "Ground coriander in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor curries, marinades and bread.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "paprika-dolce",
+      "nome": "Paprika dolce",
+      "categoria": "spezie",
+      "prezzo_centesimi": 249,
+      "descrizione": "Per carni, patate e uova. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Paprika dolce nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer carni, patate e uova.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🫑",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Sweet paprika",
+          "descrizione": "For meats, potatoes and eggs. Resealable pouch with clip.",
+          "descrizione_completa": "Sweet paprika in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor meats, potatoes and eggs.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "paprika-affumicata",
+      "nome": "Paprika affumicata",
+      "categoria": "spezie",
+      "prezzo_centesimi": 299,
+      "descrizione": "Per arrosti, barbecue e salse. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Paprika affumicata nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer arrosti, barbecue e salse.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🫑",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Smoked paprika",
+          "descrizione": "For roasts, barbecue and sauces. Resealable pouch with clip.",
+          "descrizione_completa": "Smoked paprika in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor roasts, barbecue and sauces.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "semi-di-sesamo",
+      "nome": "Semi di sesamo",
+      "categoria": "spezie",
+      "prezzo_centesimi": 249,
+      "descrizione": "Per pane, insalate e piatti asiatici. Contiene sesamo. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Semi di sesamo nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer pane, insalate e piatti asiatici. Contiene sesamo.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "⚪",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Sesame seeds",
+          "descrizione": "For bread, salads and Asian dishes. Contains sesame. Resealable pouch with clip.",
+          "descrizione_completa": "Sesame seeds in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor bread, salads and Asian dishes. Contains sesame.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "origano",
+      "nome": "Origano",
+      "categoria": "erbe-aromatiche",
+      "prezzo_centesimi": 199,
+      "descrizione": "Per pizza, pomodoro e pesce. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Origano nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer pizza, pomodoro e pesce.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Oregano",
+          "descrizione": "For pizza, tomato and fish. Resealable pouch with clip.",
+          "descrizione_completa": "Oregano in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor pizza, tomato and fish.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "basilico",
+      "nome": "Basilico",
+      "categoria": "erbe-aromatiche",
+      "prezzo_centesimi": 199,
+      "descrizione": "Per sughi, insalate e piatti estivi. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Basilico nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer sughi, insalate e piatti estivi.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Basil",
+          "descrizione": "For sauces, salads and summer dishes. Resealable pouch with clip.",
+          "descrizione_completa": "Basil in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor sauces, salads and summer dishes.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "rosmarino",
+      "nome": "Rosmarino tagliato",
+      "categoria": "erbe-aromatiche",
+      "prezzo_centesimi": 199,
+      "descrizione": "Per arrosti, patate e focacce. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Rosmarino tagliato nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer arrosti, patate e focacce.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Cut rosemary",
+          "descrizione": "For roasts, potatoes and focaccia. Resealable pouch with clip.",
+          "descrizione_completa": "Cut rosemary in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor roasts, potatoes and focaccia.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "timo",
+      "nome": "Timo",
+      "categoria": "erbe-aromatiche",
+      "prezzo_centesimi": 199,
+      "descrizione": "Per carni, funghi e salse. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Timo nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer carni, funghi e salse.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Thyme",
+          "descrizione": "For meats, mushrooms and sauces. Resealable pouch with clip.",
+          "descrizione_completa": "Thyme in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor meats, mushrooms and sauces.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "salvia",
+      "nome": "Salvia",
+      "categoria": "erbe-aromatiche",
+      "prezzo_centesimi": 199,
+      "descrizione": "Per burro e salvia, arrosti e ripieni. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Salvia nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer burro e salvia, arrosti e ripieni.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Sage",
+          "descrizione": "For sage butter, roasts and fillings. Resealable pouch with clip.",
+          "descrizione_completa": "Sage in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor sage butter, roasts and fillings.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "prezzemolo",
+      "nome": "Prezzemolo",
+      "categoria": "erbe-aromatiche",
+      "prezzo_centesimi": 199,
+      "descrizione": "Per pesce, sughi e insalate. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Prezzemolo nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer pesce, sughi e insalate.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Parsley",
+          "descrizione": "For fish, sauces and salads. Resealable pouch with clip.",
+          "descrizione_completa": "Parsley in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor fish, sauces and salads.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "menta-piperita",
+      "nome": "Menta piperita",
+      "categoria": "erbe-aromatiche",
+      "prezzo_centesimi": 199,
+      "descrizione": "Per dolci, insalate e infusi. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Menta piperita nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer dolci, insalate e infusi.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌿",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Peppermint",
+          "descrizione": "For desserts, salads and infusions. Resealable pouch with clip.",
+          "descrizione_completa": "Peppermint in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor desserts, salads and infusions.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pepe-nero-grani",
+      "nome": "Pepe nero in grani",
+      "categoria": "pepi-peperoncini",
+      "prezzo_centesimi": 299,
+      "descrizione": "Da macinare al momento su qualsiasi piatto. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Pepe nero in grani nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nDa macinare al momento su qualsiasi piatto.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "⚫",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Black peppercorns",
+          "descrizione": "To grind fresh over any dish. Resealable pouch with clip.",
+          "descrizione_completa": "Black peppercorns in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nTo grind fresh over any dish.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pepe-nero-macinato",
+      "nome": "Pepe nero macinato",
+      "categoria": "pepi-peperoncini",
+      "prezzo_centesimi": 279,
+      "descrizione": "Per carni, sughi e uova. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Pepe nero macinato nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer carni, sughi e uova.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "⚫",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ground black pepper",
+          "descrizione": "For meats, sauces and eggs. Resealable pouch with clip.",
+          "descrizione_completa": "Ground black pepper in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor meats, sauces and eggs.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "pepe-bianco-grani",
+      "nome": "Pepe bianco in grani",
+      "categoria": "pepi-peperoncini",
+      "prezzo_centesimi": 349,
+      "descrizione": "Per salse chiare, pesce e purè. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Pepe bianco in grani nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer salse chiare, pesce e purè.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "⚪",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "White peppercorns",
+          "descrizione": "For light sauces, fish and mashed potatoes. Resealable pouch with clip.",
+          "descrizione_completa": "White peppercorns in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor light sauces, fish and mashed potatoes.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "peperoncino-cayenna",
+      "nome": "Peperoncino di Cayenna macinato",
+      "categoria": "pepi-peperoncini",
+      "prezzo_centesimi": 279,
+      "descrizione": "Per chi ama il piccante: attenzione alle dosi. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Peperoncino di Cayenna macinato nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer chi ama il piccante: attenzione alle dosi.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌶️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Ground cayenne pepper",
+          "descrizione": "For those who like heat: mind the quantity. Resealable pouch with clip.",
+          "descrizione_completa": "Ground cayenne pepper in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor those who like heat: mind the quantity.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "peperoncino-jalapeno",
+      "nome": "Peperoncino jalapeño in fiocchi",
+      "categoria": "pepi-peperoncini",
+      "prezzo_centesimi": 299,
+      "descrizione": "Per pizza, tacos e salse. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Peperoncino jalapeño in fiocchi nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer pizza, tacos e salse.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🌶️",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Jalapeño chilli flakes",
+          "descrizione": "For pizza, tacos and sauces. Resealable pouch with clip.",
+          "descrizione_completa": "Jalapeño chilli flakes in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor pizza, tacos and sauces.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "miscela-pizza",
+      "nome": "Erbe e spezie per pizza",
+      "categoria": "miscele-insaporitori",
+      "prezzo_centesimi": 249,
+      "descrizione": "Da spargere sulla pizza prima o dopo la cottura. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Erbe e spezie per pizza nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nDa spargere sulla pizza prima o dopo la cottura.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🍕",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Herbs and spices for pizza",
+          "descrizione": "Sprinkle on pizza before or after baking. Resealable pouch with clip.",
+          "descrizione_completa": "Herbs and spices for pizza in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nSprinkle on pizza before or after baking.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "garam-masala",
+      "nome": "Garam masala",
+      "categoria": "miscele-insaporitori",
+      "prezzo_centesimi": 349,
+      "descrizione": "Per curry, legumi e riso. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Garam masala nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer curry, legumi e riso.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🍛",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Garam masala",
+          "descrizione": "For curries, legumes and rice. Resealable pouch with clip.",
+          "descrizione_completa": "Garam masala in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor curries, legumes and rice.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "curry-polvere",
+      "nome": "Curry in polvere",
+      "categoria": "miscele-insaporitori",
+      "prezzo_centesimi": 299,
+      "descrizione": "Per pollo, riso e verdure. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Curry in polvere nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer pollo, riso e verdure.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🍛",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Curry powder",
+          "descrizione": "For chicken, rice and vegetables. Resealable pouch with clip.",
+          "descrizione_completa": "Curry powder in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor chicken, rice and vegetables.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "condimento-aglio-olio",
+      "nome": "Condimento aglio, olio e peperoncino",
+      "categoria": "miscele-insaporitori",
+      "prezzo_centesimi": 249,
+      "descrizione": "Per la pasta e per condire verdure. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Condimento aglio, olio e peperoncino nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer la pasta e per condire verdure.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🍝",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Garlic, oil and chilli seasoning",
+          "descrizione": "For pasta and for seasoning vegetables. Resealable pouch with clip.",
+          "descrizione_completa": "Garlic, oil and chilli seasoning in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor pasta and for seasoning vegetables.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
+        }
+      }
+    },
+    {
+      "tipo": "fisico",
+      "id": "condimento-bistecche",
+      "nome": "Condimento per bistecche",
+      "categoria": "miscele-insaporitori",
+      "prezzo_centesimi": 299,
+      "descrizione": "Per carne alla griglia e in padella. Sacchetto richiudibile con clip.",
+      "descrizione_completa": "Condimento per bistecche nel pratico sacchetto richiudibile con clip salva freschezza: dopo l'apertura richiudi la clip e aromi e profumi si mantengono più a lungo.\n\n## Come usarlo\n\nPer carne alla griglia e in padella.\n\n## Conservazione\n\nTieni il sacchetto chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
+      "immagine": "",
+      "icona": "🥩",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Steak seasoning",
+          "descrizione": "For grilled and pan-fried meat. Resealable pouch with clip.",
+          "descrizione_completa": "Steak seasoning in a handy resealable pouch with a freshness clip: after opening, close the clip and aroma and flavor last longer.\n\n## How to use\n\nFor grilled and pan-fried meat.\n\n## Storage\n\nKeep the pouch closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
         }
       }
     }
