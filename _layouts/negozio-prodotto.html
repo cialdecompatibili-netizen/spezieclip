@@ -42,7 +42,7 @@ PUNTI CRITICI
 </div>
 <section class="nz-pp-desc"><h2>Descrizione</h2>
 {%- if nz_p.descrizione_completa and nz_p.descrizione_completa != '' -%}
-<p>{{ nz_p.tr[page.lang].descrizione_completa | default: nz_p.descrizione_completa | strip | escape | newline_to_br }}</p>
+{{ nz_p.tr[page.lang].descrizione_completa | default: nz_p.descrizione_completa | strip | markdownify }}
 {%- else -%}
 <p>{{ nz_p.tr[page.lang].descrizione | default: nz_p.descrizione | escape }}</p>
 {%- endif -%}
