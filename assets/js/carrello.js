@@ -405,7 +405,7 @@
       var card = b.closest(".nz-box");
       var q = parseInt(card.querySelector(".nz-qta").value, 10) || 1;
       q = Math.max(1, Math.min(MAX, q));
-      aggId = card.dataset.id;
+      aggId = card.dataset.id + (card.dataset.g ? "~" + card.dataset.g : ""); // variante a peso: id~grammi (vedi automation/pesi_varianti.py)
       var prima = c[aggId] || 0;
       c[aggId] = Math.min(MAX, prima + q);
       aggiunta = c[aggId] - prima;
@@ -428,6 +428,20 @@
       badge(true);
       apri(aggId, aggiunta);
     }
+  });
+
+  /* VARIANTI PESO: i bottoni .nz-vb scelgono grammi e prezzo della scheda; "Aggiungi" usa data-g (id~grammi, voce presente nel catalogo del header) */
+  radice.addEventListener("click", function (ev) {
+    var v = ev.target.closest(".nz-vb");
+    if (!v) return;
+    var card = v.closest(".nz-box");
+    card.dataset.g = v.dataset.g;
+    card.dataset.prezzo = v.dataset.p;
+    card.querySelectorAll(".nz-vb").forEach(function (x) {
+      x.classList.toggle("on", x === v);
+      x.setAttribute("aria-checked", x === v ? "true" : "false");
+    });
+    card.querySelector(".nz-prezzo").textContent = euro.format(Number(v.dataset.p) / 100);
   });
 
   /* ORDINE (/ordine/): passi Dati > Spedizione (solo se c'e' un prodotto fisico) > Pagamento.

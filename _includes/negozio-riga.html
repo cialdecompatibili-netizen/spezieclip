@@ -1,11 +1,12 @@
 {%- comment -%} RIGA PRODOTTO (usata da negozio-categoria.html). Classi nz-* e data-* sono lette da carrello.js e shop-i18n.js: non rinominare. Testi tradotti da catalogo.json > tr[lingua], con ripiego sull'italiano. {%- endcomment -%}
+{%- assign nz_vv = include.b.varianti -%}{%- if nz_vv == nil or nz_vv.size == 0 -%}{%- assign nz_vv = site.data.catalogo.varianti -%}{%- endif -%}{%- assign nz_v0 = nz_vv | first -%}
 {%- assign nz_lh = '/' -%}{%- if page.lang and page.lang != site.default_lang -%}{%- assign nz_lh = '/' | append: page.lang | append: '/' -%}{%- endif -%}
-<div class="nz-riga nz-box" data-id="{{ include.b.id }}" data-cat="{{ include.b.categoria }}" data-nome="{{ include.b.tr[page.lang].nome | default: include.b.nome | escape }}" data-prezzo="{{ include.b.prezzo_centesimi | default: 0 }}" data-tipo="{{ include.b.tipo | default: 'fisico' }}">
+<div class="nz-riga nz-box" data-id="{{ include.b.id }}" data-cat="{{ include.b.categoria }}" data-nome="{{ include.b.tr[page.lang].nome | default: include.b.nome | escape }}" data-prezzo="{% if nz_v0 and include.b.tipo != 'digitale' %}{{ nz_v0.prezzo_centesimi }}{% else %}{{ include.b.prezzo_centesimi | default: 0 }}{% endif %}"{% if nz_v0 and include.b.tipo != 'digitale' %} data-g="{{ nz_v0.g }}"{% endif %} data-tipo="{{ include.b.tipo | default: 'fisico' }}">
 <div class="nz-icona">{% if include.b.immagine and include.b.immagine != '' %}<img src="{% if include.b.immagine contains '://' %}{{ include.b.immagine }}{% else %}{{ '/' | append: include.b.immagine | relative_url }}{% endif %}" alt="" loading="lazy">{% else %}{{ include.b.icona }}{% endif %}</div>
 <div class="nz-testo">
 <p class="nz-cat">{{ include.cat.tr[page.lang].nome | default: include.cat.nome }} &middot; <span>{% if include.b.tipo == 'digitale' %}digitale{% else %}fisico{% endif %}</span></p>
 <h3><a href="{% include shop-url.html k="prod" id=include.b.id %}">{{ include.b.tr[page.lang].nome | default: include.b.nome }}</a></h3>
-<div class="nz-prezzo fw-bold"></div>
+<div class="nz-prezzo fw-bold"></div>{% if nz_v0 and include.b.tipo != 'digitale' %}<p class="nz-peso">{% for v in nz_vv %}{{ v.g }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %} g</p>{% endif %}
 <p class="nz-breve">{{ include.b.tr[page.lang].descrizione | default: include.b.descrizione }}</p>
 </div>
 <div class="nz-azioni">

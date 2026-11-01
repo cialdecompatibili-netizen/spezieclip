@@ -398,3 +398,10 @@ Testo e azioni hanno il loro padding. Per ingrandire/ridurre: cambia la prima co
   #negozio .nz-riga .nz-icona { min-height: 0; aspect-ratio: 16 / 10; }
   #negozio .nz-riga .nz-testo { padding: .8rem 1rem .2rem; }
 }
+
+/* VARIANTI PESO (selettore grammi nella scheda prodotto) */
+.nz-var{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+.nz-vb{padding:8px 16px;border:1.5px solid #ddd;border-radius:var(--t-radius,10px);background:#fff;color:#333;font-weight:600;cursor:pointer}
+.nz-vb:hover{border-color:var(--t-accent,#b5651d)}
+.nz-vb.on{background:var(--t-accent,#b5651d);border-color:var(--t-accent,#b5651d);color:#fff}
+.nz-peso{margin:2px 0 6px;font-size:.85em;color:#777}

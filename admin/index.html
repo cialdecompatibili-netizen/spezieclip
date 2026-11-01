@@ -213,7 +213,8 @@ tr:hover td{background:#f0f6fc}
     <button class="nav-item" onclick="showPage('impostazioni',this)"><span class="icon">⚙️</span>Impostazioni</button>
     <div class="nav-label">Shop</div>
     <button class="nav-item" onclick="showPage('prodotti',this)"><span class="icon">🛒</span>Prodotti</button>
-    <button class="nav-item" onclick="showPage('cat-prodotti',this)"><span class="icon">📦</span>Categorie Shop</button>
+    <button class="nav-item" onclick="showPage('pesi',this)"><span class="icon">&#9878;</span>Pesi e prezzi</button>
+<button class="nav-item" onclick="showPage('cat-prodotti',this)"><span class="icon">📦</span>Categorie Shop</button>
     <div class="nav-label">Lingue</div>
     <button class="nav-item" onclick="showPage('lingue',this);caricaLingue()"><span class="icon">&#127760;</span>Lingue</button>
     <div class="nav-label">Sistema</div>
@@ -224,7 +225,25 @@ tr:hover td{background:#f0f6fc}
   <main class="main">
 
     <!-- LINGUE -->
-    <div class="page" id="page-lingue">
+    <!-- PESI E PREZZI: fasce a grammi (_data/catalogo.json > varianti). Funzioni pesi*() nello script in fondo. -->
+<div class="page" id="page-pesi">
+<div class="page-title">&#9878; Pesi e prezzi</div>
+<div class="card">
+<div class="card-title">Fasce del negozio (valgono per tutti i prodotti fisici)</div>
+<p style="font-size:13px;color:#666;margin-bottom:12px">Ogni fascia = grammi + prezzo. La prima (la pi&ugrave; piccola) &egrave; il prezzo &ldquo;da&rdquo; mostrato nell&rsquo;elenco.</p>
+<div id="pesi-globali"><em style="color:#bbb;font-size:13px">Caricamento...</em></div>
+<div class="btn-group"><button class="btn btn-secondary" onclick="pesiAdd('')">+ Fascia</button></div>
+</div>
+<div class="card">
+<div class="card-title">Prodotto con fasce proprie (facoltativo)</div>
+<div class="field"><label>Prodotto</label><select id="pesi-prod" onchange="pesiProd()"></select></div>
+<div id="pesi-prodotto"></div>
+</div>
+<div class="btn-group"><button class="btn btn-primary" onclick="pesiSalva()">&#128190; Salva e pubblica</button></div>
+<div class="msg" id="msg-pesi"></div>
+</div>
+
+<div class="page" id="page-lingue">
       <div class="page-title">&#127760; Lingue</div>
       <div class="card">
         <div class="card-title">Nuova lingua</div>
@@ -1000,6 +1019,7 @@ function showPage(id,btn){
   if(id==='impostazioni')caricaImpostazioni();
   if(id==='prodotti'){caricaProdotti();if(!_tabCaricato['cat-prodotti']){caricaCatShop();_tabCaricato['cat-prodotti']=true;}}
   if(id==='cat-prodotti')caricaCatShop();
+  if(id==='pesi')caricaPesi();
   if(id==='aggiornamenti')controllaAggiornamenti();
 }
 // TOKEN
@@ -1023,6 +1043,68 @@ function tok(){return localStorage.getItem('gh_token');}
 function enc(s){return btoa(unescape(encodeURIComponent(s)));}
 function dec(s){return decodeURIComponent(escape(atob(s.replace(/\n/g,''))));}
 function showMsg(id,txt,cls){const m=document.getElementById(id);m.textContent=txt;m.className='msg '+cls;}
+// ============ PESI E PREZZI (varianti a grammi) ============
+// Dati: _data/catalogo.json > varianti (globali) e prodotti[].varianti (solo se il prodotto ha fasce proprie).
+// Prezzi in centesimi nel file, in euro (virgola) nei campi. Salva = riallinea anche prezzo_centesimi di ogni prodotto fisico alla prima fascia.
+let _pesi=null,_pesiSha=null;
+function pesiC2E(c){return (c/100).toFixed(2).replace('.',',');}
+function pesiE2C(s){return Math.round(parseFloat(String(s).replace(',','.'))*100)||0;}
+function pesiArr(id){
+  if(!id)return _pesi.varianti;
+  const p=_pesi.prodotti.find(x=>x.id===id);return p?p.varianti:null;
+}
+function pesiRows(id){
+  const a=pesiArr(id)||[];
+  return a.map((v,i)=>`<div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+    <input type="number" min="1" value="${v.g}" style="width:90px" onchange="pesiSet('${id}',${i},'g',this.value)"> g
+    <input type="text" value="${pesiC2E(v.prezzo_centesimi)}" style="width:90px" onchange="pesiSet('${id}',${i},'p',this.value)"> &euro;
+    <button class="btn btn-danger btn-sm" onclick="pesiDel('${id}',${i})">&#128465;</button></div>`).join('')||'<em style="color:#bbb;font-size:13px">Nessuna fascia.</em>';
+}
+function pesiDraw(){
+  document.getElementById('pesi-globali').innerHTML=pesiRows('');
+  const sel=document.getElementById('pesi-prod'),cur=sel.value;
+  sel.innerHTML='<option value="">&mdash; scegli &mdash;</option>'+_pesi.prodotti.filter(p=>p.tipo!=='digitale').map(p=>`<option value="${p.id}">${p.nome}${p.varianti&&p.varianti.length?' *':''}</option>`).join('');
+  sel.value=cur;pesiProd();
+}
+function pesiProd(){
+  const id=document.getElementById('pesi-prod').value,box=document.getElementById('pesi-prodotto');
+  if(!id){box.innerHTML='';return;}
+  const p=_pesi.prodotti.find(x=>x.id===id);
+  if(p.varianti&&p.varianti.length){
+    box.innerHTML=pesiRows(id)+`<div class="btn-group"><button class="btn btn-secondary" onclick="pesiAdd('${id}')">+ Fascia</button><button class="btn btn-danger" onclick="pesiReset('${id}')">Torna alle fasce del negozio</button></div>`;
+  }else{
+    box.innerHTML=`<p style="font-size:13px;color:#666">Usa le fasce del negozio.</p><button class="btn btn-secondary" onclick="pesiOwn('${id}')">Dai fasce proprie (copia quelle del negozio)</button>`;
+  }
+}
+function pesiSet(id,i,k,v){const a=pesiArr(id);if(k==='g')a[i].g=parseInt(v,10)||a[i].g;else a[i].prezzo_centesimi=pesiE2C(v);}
+function pesiDel(id,i){pesiArr(id).splice(i,1);pesiDraw();}
+function pesiAdd(id){const a=pesiArr(id);const last=a[a.length-1]||{g:0,prezzo_centesimi:0};a.push({g:last.g+5,prezzo_centesimi:last.prezzo_centesimi});pesiDraw();}
+function pesiOwn(id){const p=_pesi.prodotti.find(x=>x.id===id);p.varianti=JSON.parse(JSON.stringify(_pesi.varianti));pesiDraw();}
+function pesiReset(id){const p=_pesi.prodotti.find(x=>x.id===id);delete p.varianti;pesiDraw();}
+async function caricaPesi(){
+  const el=document.getElementById('pesi-globali');
+  if(!tok()){el.innerHTML='<em style="color:#bbb;font-size:13px">Token mancante: vai in Token.</em>';return;}
+  let res;try{res=await ghGet('_data/catalogo.json');}catch(e){el.innerHTML='<em>Errore di rete.</em>';return;}
+  if(!res.ok){el.innerHTML='<em>catalogo.json non trovato (serve ecommerce: true).</em>';return;}
+  const d=await res.json();_pesiSha=d.sha;_pesi=JSON.parse(dec(d.content));
+  if(!_pesi.varianti)_pesi.varianti=[];
+  pesiDraw();
+}
+async function pesiSalva(){
+  if(!_pesi)return;
+  const ord=a=>a.sort((x,y)=>x.g-y.g);
+  ord(_pesi.varianti);
+  _pesi.prodotti.forEach(p=>{
+    if(p.varianti&&!p.varianti.length)delete p.varianti;
+    if(p.varianti)ord(p.varianti);
+    if(p.tipo!=='digitale'){const eff=p.varianti||_pesi.varianti;if(eff.length)p.prezzo_centesimi=eff[0].prezzo_centesimi;}
+  });
+  const res=await ghPut('_data/catalogo.json','Aggiorna pesi e prezzi',JSON.stringify(_pesi,null,2)+'\n',_pesiSha||undefined);
+  const j=await res.json();
+  if(res.ok){_pesiSha=j.content.sha;showMsg('msg-pesi','Salvato: il sito si aggiorna in 1-2 minuti.','ok');pesiDraw();}
+  else showMsg('msg-pesi','Errore salvataggio: '+(j.message||res.status),'err');
+}
+
 async function ghGet(path){return fetch(`https://api.github.com/repos/${REPO}/contents/${path}`,{headers:{'Authorization':`token ${tok()}`}});}
 // ⚠️ CRITICO: sha e' obbligatorio per aggiornare file esistenti su GitHub API.
 // Se sha e' stringa vuota ('') GitHub risponde 422. Passare sempre sha||undefined.
