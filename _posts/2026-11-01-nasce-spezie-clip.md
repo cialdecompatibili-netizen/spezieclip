@@ -13,7 +13,7 @@ categories:
 
 ## Cosa trovi
 
-Quattro linee: spezie, erbe aromatiche, pepi e peperoncini, miscele e insaporitori. Su ogni scheda trovi come usare il prodotto e come conservarlo.
+Quattro linee: spezie, erbe aromatiche, pepi e peperoncini, miscele e insaporitori. Ogni prodotto si compra da 5 g a 0,99 €, oppure da 10, 25 o 50 g. Su ogni scheda trovi come usarlo e come conservarlo.
 
 ## Cosa arriverà
 

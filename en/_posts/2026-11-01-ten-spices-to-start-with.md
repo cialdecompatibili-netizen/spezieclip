@@ -8,7 +8,7 @@ excerpt: "A complete base to cook almost anything, without filling the pantry."
 categories:
   - Guides
 tr: tradotto
-tr_hash: o78d4h
+tr_hash: 1k3xye7
 ---
 
 You do not need a hundred jars: ten spices and herbs cover almost any cooking.
@@ -24,4 +24,4 @@ You do not need a hundred jars: ten spices and herbs cover almost any cooking.
 - **Nutmeg**: béchamel and fillings.
 - **Chilli**: for those who like heat, to be used with care.
 
-With this selection you already have a complete base. Blends such as curry and garam masala come later, when you want to try new cuisines.
+With this selection you already have a complete base, and you can start with 5 g at €0.99 for each. Blends such as curry and garam masala come later, when you want to try new cuisines.

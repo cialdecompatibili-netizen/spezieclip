@@ -22,4 +22,4 @@ Non servono cento barattoli: con dieci spezie ed erbe si cucina quasi tutto.
 - **Noce moscata**: besciamella e ripieni.
 - **Peperoncino**: per chi ama il piccante, da dosare con cautela.
 
-Con questo assortimento hai già una base completa. Le miscele, come curry e garam masala, si aggiungono dopo, quando vuoi provare cucine nuove.
+Con questo assortimento hai già una base completa, e puoi cominciare con 5 g a 0,99 € per ognuna. Le miscele, come curry e garam masala, si aggiungono dopo, quando vuoi provare cucine nuove.

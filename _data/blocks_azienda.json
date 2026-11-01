@@ -3,12 +3,12 @@
     "id": "chi",
     "nome": "Chi siamo",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Chi siamo</p><h2 class=\"gc-h2\">Spezie in formato pratico</h2><p class=\"gc-lead\">Spezie Clip propone spezie, erbe aromatiche e miscele in sacchetti richiudibili con clip, pensati per la cucina di ogni giorno.</p><p>Su ogni confezione trovi ingredienti, allergeni, lotto e scadenza. Se hai un dubbio su un prodotto o su un ordine, scrivici.</p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Chi siamo</p><h2 class=\"gc-h2\">Spezie in formato pratico</h2><p class=\"gc-lead\">Spezie Clip propone spezie, erbe aromatiche e miscele in sacchetti richiudibili con clip, pensati per la cucina di ogni giorno.</p><p>Ogni prodotto si sceglie in più pesi, da 5 g a 0,99 € fino a 50 g, così provi senza comprare di più del necessario. Sull'etichetta trovi gli ingredienti e gli allergeni. Se hai un dubbio su un prodotto o su un ordine, scrivici.</p></div></section></div>"
   },
   {
     "id": "principi",
     "nome": "Principi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">Come ci comportiamo</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Chiarezza</b><p>Ingredienti e allergeni scritti sull'etichetta, senza promesse che non possiamo verificare.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Praticità</b><p>Sacchetti richiudibili e dosi comode per la cucina di casa.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Assistenza</b><p>Ci scrivi, ti rispondiamo: prima e dopo l'acquisto.</p></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">Come ci comportiamo</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Chiarezza</b><p>Ingredienti e allergeni scritti sull'etichetta, senza promesse che non possiamo verificare.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Praticità</b><p>Sacchetti richiudibili e pesi da 5 a 50 g: prendi la dose giusta per la tua cucina.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Assistenza</b><p>Ci scrivi, ti rispondiamo: prima e dopo l'acquisto.</p></div></div></div></section></div>"
   }
 ]
