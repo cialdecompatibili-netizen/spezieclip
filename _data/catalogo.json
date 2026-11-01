@@ -255,7 +255,7 @@
     {
       "tipo": "fisico",
       "id": "origano",
-      "nome": "Origano",
+      "nome": "Origano essiccato",
       "categoria": "erbe-aromatiche",
       "prezzo_centesimi": 99,
       "descrizione": "L'origano secco è l'erba più usata nella cucina italiana, con un profumo intenso e leggermente piccante. Mettilo su pizza e pomodoro, oppure su pesce e verdure grigliate. Sacchetto richiudibile con clip.",
@@ -265,7 +265,7 @@
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Oregano",
+          "nome": "Dried oregano",
           "descrizione": "Dried oregano is the most used herb in Italian cooking, with an intense, slightly peppery fragrance. Put it on pizza and tomato, or on fish and grilled vegetables. Resealable pouch with clip.",
           "descrizione_completa": "Dried oregano is the most used herb in Italian cooking, with an intense, slightly peppery fragrance.\n\n## How to use\n\nPut it on pizza and tomato, or on fish and grilled vegetables. Add it at the end of cooking to keep the aroma.\n\n## Storage\n\nKeep the pouch tightly closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
         }
@@ -274,7 +274,7 @@
     {
       "tipo": "fisico",
       "id": "basilico",
-      "nome": "Basilico",
+      "nome": "Basilico essiccato",
       "categoria": "erbe-aromatiche",
       "prezzo_centesimi": 99,
       "descrizione": "Il basilico essiccato conserva il profumo dolce e fresco della pianta e si usa tutto l'anno. Aggiungilo a sughi, insalate e piatti estivi, anche a fine cottura. Sacchetto richiudibile con clip.",
@@ -284,7 +284,7 @@
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Basil",
+          "nome": "Dried basil",
           "descrizione": "Dried basil keeps the sweet, fresh scent of the plant and can be used all year. Add it to sauces, salads and summer dishes, even at the end of cooking. Resealable pouch with clip.",
           "descrizione_completa": "Dried basil keeps the sweet, fresh scent of the plant and can be used all year. It is less intense than fresh, but handy and always ready.\n\n## How to use\n\nAdd it to sauces, salads and summer dishes, even at the end of cooking. Use less than you would of fresh: dried is more concentrated.\n\n## Storage\n\nKeep the pouch tightly closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
         }
@@ -293,7 +293,7 @@
     {
       "tipo": "fisico",
       "id": "rosmarino",
-      "nome": "Rosmarino tagliato",
+      "nome": "Rosmarino essiccato",
       "categoria": "erbe-aromatiche",
       "prezzo_centesimi": 99,
       "descrizione": "Rosmarino tagliato in pezzetti piccoli, dal profumo resinoso e deciso. Perfetto per arrosti, patate al forno e focacce. Sacchetto richiudibile con clip.",
@@ -303,7 +303,7 @@
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Cut rosemary",
+          "nome": "Dried rosemary",
           "descrizione": "Rosemary cut into small pieces, with a bold, resinous scent. Perfect for roasts, baked potatoes and focaccia. Resealable pouch with clip.",
           "descrizione_completa": "Rosemary cut into small pieces, with a bold, resinous scent. Handy because it needs no chopping.\n\n## How to use\n\nPerfect for roasts, baked potatoes and focaccia. Mix it with a little oil before using so it releases more aroma.\n\n## Storage\n\nKeep the pouch tightly closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
         }
@@ -312,7 +312,7 @@
     {
       "tipo": "fisico",
       "id": "timo",
-      "nome": "Timo",
+      "nome": "Timo essiccato",
       "categoria": "erbe-aromatiche",
       "prezzo_centesimi": 99,
       "descrizione": "Il timo ha un aroma delicato, fresco e leggermente floreale, che si sposa con molti ingredienti. Usalo con carni, funghi, salse e verdure al forno. Sacchetto richiudibile con clip.",
@@ -322,7 +322,7 @@
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Thyme",
+          "nome": "Dried thyme",
           "descrizione": "Thyme has a delicate, fresh and slightly floral aroma that goes with many ingredients. Use it with meats, mushrooms, sauces and baked vegetables. Resealable pouch with clip.",
           "descrizione_completa": "Thyme has a delicate, fresh and slightly floral aroma that goes with many ingredients.\n\n## How to use\n\nUse it with meats, mushrooms, sauces and baked vegetables. It holds up well to cooking, so you can add it at the start.\n\n## Storage\n\nKeep the pouch tightly closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
         }
@@ -331,7 +331,7 @@
     {
       "tipo": "fisico",
       "id": "salvia",
-      "nome": "Salvia",
+      "nome": "Salvia essiccata",
       "categoria": "erbe-aromatiche",
       "prezzo_centesimi": 99,
       "descrizione": "La salvia secca ha un profumo intenso, balsamico e lievemente amaro. Ideale per burro e salvia, arrosti e ripieni. Sacchetto richiudibile con clip.",
@@ -341,7 +341,7 @@
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Sage",
+          "nome": "Dried sage",
           "descrizione": "Dried sage has an intense, balsamic and slightly bitter scent. Ideal for sage butter, roasts and fillings. Resealable pouch with clip.",
           "descrizione_completa": "Dried sage has an intense, balsamic and slightly bitter scent. It is a classic of Italian cooking.\n\n## How to use\n\nIdeal for sage butter, roasts and fillings. Warm it briefly in butter to release the aroma.\n\n## Storage\n\nKeep the pouch tightly closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
         }
@@ -350,7 +350,7 @@
     {
       "tipo": "fisico",
       "id": "prezzemolo",
-      "nome": "Prezzemolo",
+      "nome": "Prezzemolo essiccato",
       "categoria": "erbe-aromatiche",
       "prezzo_centesimi": 99,
       "descrizione": "Il prezzemolo secco porta un tocco verde e un sapore fresco e leggero nei piatti. Usalo su pesce, sughi e insalate, anche all'ultimo per colore e profumo. Sacchetto richiudibile con clip.",
@@ -360,7 +360,7 @@
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Parsley",
+          "nome": "Dried parsley",
           "descrizione": "Dried parsley adds a touch of green and a light, fresh flavor to dishes. Use it on fish, sauces and salads, even at the last moment for color and scent. Resealable pouch with clip.",
           "descrizione_completa": "Dried parsley adds a touch of green and a light, fresh flavor to dishes.\n\n## How to use\n\nUse it on fish, sauces and salads, even at the last moment for color and scent. It is milder than fresh, so you can be generous.\n\n## Storage\n\nKeep the pouch tightly closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
         }
@@ -369,7 +369,7 @@
     {
       "tipo": "fisico",
       "id": "menta-piperita",
-      "nome": "Menta piperita",
+      "nome": "Menta piperita essiccata",
       "categoria": "erbe-aromatiche",
       "prezzo_centesimi": 99,
       "descrizione": "La menta piperita ha un profumo fresco e intenso, con una nota mentolata che si sente subito. Aggiungila a dolci, insalate e salse allo yogurt, oppure prepara un infuso lasciandola in acqua calda per qualche minuto. Sacchetto richiudibile con clip.",
@@ -379,7 +379,7 @@
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Peppermint",
+          "nome": "Dried peppermint",
           "descrizione": "Peppermint has a fresh, intense scent with a menthol note you notice right away. Add it to desserts, salads and yogurt sauces, or make an infusion by leaving it in hot water for a few minutes. Resealable pouch with clip.",
           "descrizione_completa": "Peppermint has a fresh, intense scent with a menthol note you notice right away.\n\n## How to use\n\nAdd it to desserts, salads and yogurt sauces, or make an infusion by leaving it in hot water for a few minutes.\n\n## Storage\n\nKeep the pouch tightly closed with the clip, away from light, heat and moisture. Ingredients and allergens are shown on the pack label."
         }

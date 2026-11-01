@@ -1,9 +1,9 @@
 ---
 layout: negozio-prodotto
-title: "Parsley"
+title: "Dried parsley"
 pid: prezzemolo
-permalink: /en/shop/prezzemolo/
-description: "For fish, sauces and salads."
+permalink: /en/shop/dried-parsley/
+description: "Dried parsley adds a touch of green and a light, fresh flavor to dishes. Use it on fish, sauces and salads, even at the last moment for color and scent. Resealable pouch with clip."
 lang: en
 locale: en
 ref: shop-prod-prezzemolo
