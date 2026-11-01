@@ -105,3 +105,5 @@ Tutto da Desktop Commander sul PC di Mirco, con Python. Il connettore GitHub non
 - Prezzi e specifiche della demo sono SEGNAPOSTO da confermare con Mirco: nei testi solo cose generiche, niente portate o numeri inventati.
 - Per molti prodotti: lo script e' da generalizzare in `aggiungi_prodotti.py` (input = elenco con nome, categoria, prezzo, testi IT/EN, soggetto foto), proposto a Mirco, non ancora fatto.
 - Idee categorie dal mercato (ricerca 31/10/2026): nodi e schede Meshtastic (Heltec V3/V4, LILYGO T-Beam), ripetitori solari, kit modulari RAK WisBlock, tracker GPS, comunicatori portatili, kit con Raspberry Pi.
+
+- Foto prodotti (Gemini API): vedi IMMAGINI.md
