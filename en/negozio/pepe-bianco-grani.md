@@ -3,7 +3,7 @@ layout: negozio-prodotto
 title: "White peppercorns"
 pid: pepe-bianco-grani
 permalink: /en/shop/pepe-bianco-grani/
-description: "For light sauces, fish and mashed potatoes."
+description: "White peppercorns: for light sauces, fish and mashed potatoes. Resealable clip bag, from 5 g."
 lang: en
 locale: en
 ref: shop-prod-pepe-bianco-grani

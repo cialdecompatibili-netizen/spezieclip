@@ -3,7 +3,7 @@ layout: negozio-prodotto
 title: "Dried peppermint"
 pid: menta-piperita
 permalink: /en/shop/dried-peppermint/
-description: "Peppermint has a fresh, intense scent with a menthol note you notice right away. Add it to desserts, salads and yogurt sauces, or make an infusion by leaving it in hot water for a few minutes. Resealable pouch with clip."
+description: "Dried peppermint: peppermint has a fresh, intense scent with a menthol note you notice right away. Resealable clip bag, from 5 g."
 lang: en
 locale: en
 ref: shop-prod-menta-piperita

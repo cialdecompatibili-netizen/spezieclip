@@ -3,7 +3,7 @@ layout: negozio-prodotto
 title: "Smoked paprika"
 pid: paprika-affumicata
 permalink: /en/shop/paprika-affumicata/
-description: "For roasts, barbecue and sauces."
+description: "Smoked paprika: for roasts, barbecue and sauces. Resealable clip bag, from 5 g."
 lang: en
 locale: en
 ref: shop-prod-paprika-affumicata

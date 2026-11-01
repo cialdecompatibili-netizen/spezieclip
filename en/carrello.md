@@ -3,7 +3,7 @@ layout: single
 classes: wide
 author_profile: false
 title: Cart
-description: Your cart.
+description: "Your cart: check the spices and herbs you picked, weights and total before ordering."
 ecommerce: true
 noindex: true
 ref: shop-carrello

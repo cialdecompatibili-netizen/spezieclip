@@ -3,7 +3,7 @@ layout: negozio-prodotto
 title: "Ground ginger"
 pid: zenzero-macinato
 permalink: /en/shop/zenzero-macinato/
-description: "For biscuits, infusions and Asian dishes."
+description: "Ground ginger: for biscuits, infusions and Asian dishes. Resealable clip bag, from 5 g."
 lang: en
 locale: en
 ref: shop-prod-zenzero-macinato

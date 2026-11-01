@@ -3,7 +3,7 @@ layout: negozio-prodotto
 title: "Ground turmeric"
 pid: curcuma-macinata
 permalink: /en/shop/curcuma-macinata/
-description: "For risottos, soups and golden milk."
+description: "Ground turmeric: for risottos, soups and golden milk. Resealable clip bag, from 5 g."
 lang: en
 locale: en
 ref: shop-prod-curcuma-macinata

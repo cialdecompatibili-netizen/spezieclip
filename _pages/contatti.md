@@ -2,6 +2,7 @@
 ref: contatti
 layout: single
 title: "Contatti"
+description: "Contattaci per ordini, informazioni sui prodotti e collaborazioni. Rispondiamo il prima possibile."
 permalink: /contatti/
 ---
 

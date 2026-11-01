@@ -2,6 +2,7 @@
 layout: single
 ref: cat-novita
 title: "News"
+description: "Shop news: new spices, new blends and site updates."
 permalink: /en/blog/news/
 categoria: "News"
 author_profile: false

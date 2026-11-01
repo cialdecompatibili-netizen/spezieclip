@@ -3,7 +3,7 @@ layout: negozio-prodotto
 title: "Ground cinnamon"
 pid: cannella-macinata
 permalink: /en/shop/cannella-macinata/
-description: "For desserts, creams and breakfasts."
+description: "Ground cinnamon: for desserts, creams and breakfasts. Resealable clip bag, from 5 g."
 lang: en
 locale: en
 ref: shop-prod-cannella-macinata

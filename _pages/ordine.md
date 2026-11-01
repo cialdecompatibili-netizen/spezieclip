@@ -5,7 +5,7 @@ classes: wide
 author_profile: false
 title: Ordine
 permalink: /ordine/
-description: Completa il tuo ordine.
+description: "Completa il tuo ordine di spezie ed erbe aromatiche in sacchetti richiudibili con clip."
 ecommerce: true
 noindex: true
 ---

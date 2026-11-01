@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Contact"
+description: "Get in touch for orders, product questions and partnerships. We reply as soon as we can."
 ref: contatti
 lang: en
 locale: en

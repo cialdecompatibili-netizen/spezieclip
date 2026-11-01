@@ -3,7 +3,7 @@ layout: negozio-prodotto
 title: "Curry powder"
 pid: curry-polvere
 permalink: /en/shop/curry-polvere/
-description: "For chicken, rice and vegetables."
+description: "Curry powder: for chicken, rice and vegetables. Resealable clip bag, from 5 g."
 lang: en
 locale: en
 ref: shop-prod-curry-polvere

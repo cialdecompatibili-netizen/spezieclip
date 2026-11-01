@@ -5,7 +5,7 @@ classes: wide
 author_profile: false
 title: Carrello
 permalink: /carrello/
-description: Il tuo carrello.
+description: "Il tuo carrello: controlla spezie ed erbe aromatiche scelte, pesi e totale prima di ordinare."
 ecommerce: true
 noindex: true
 ---

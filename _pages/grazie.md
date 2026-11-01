@@ -5,7 +5,7 @@ classes: wide
 author_profile: false
 title: Grazie
 permalink: /grazie/
-description: Ordine ricevuto.
+description: "Grazie per il tuo ordine di spezie ed erbe aromatiche. Ti scriviamo con i dettagli."
 ecommerce: true
 noindex: true
 ---

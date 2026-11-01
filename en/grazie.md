@@ -3,7 +3,7 @@ layout: single
 classes: wide
 author_profile: false
 title: "Thank you"
-description: Order received.
+description: "Thank you for your order of spices and herbs. We will email you the details."
 ecommerce: true
 noindex: true
 ref: shop-grazie

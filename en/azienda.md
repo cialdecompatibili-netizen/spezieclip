@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "About us"
-description: "About us and what we do."
+description: "About us: spices, herbs and blends in resealable clip bags, from 5 to 50 g. See how we work."
 author_profile: false
 ref: azienda
 lang: en

@@ -3,7 +3,7 @@ layout: negozio-prodotto
 title: "Dried sage"
 pid: salvia
 permalink: /en/shop/dried-sage/
-description: "Dried sage has an intense, balsamic and slightly bitter scent. Ideal for sage butter, roasts and fillings. Resealable pouch with clip."
+description: "Dried sage: dried sage has an intense, balsamic and slightly bitter scent. Resealable clip bag, from 5 g."
 lang: en
 locale: en
 ref: shop-prod-salvia

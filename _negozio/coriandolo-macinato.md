@@ -3,6 +3,6 @@ layout: negozio-prodotto
 title: "Coriandolo macinato"
 pid: coriandolo-macinato
 permalink: /negozio/coriandolo-macinato/
-description: "Per curry, marinate e pane."
+description: "Coriandolo macinato: per curry, marinate e pane. Sacchetto richiudibile con clip, da 5 g."
 ref: shop-prod-coriandolo-macinato
 ---
