@@ -51,7 +51,7 @@
       "prezzo_centesimi": 249,
       "descrizione": "Per sughi, arrosti e verdure. Sacchetto richiudibile con clip.",
       "descrizione_completa": "L'aglio granulare ha il gusto deciso dell'aglio senza bisogno di sbucciarlo e tritarlo. Si dosa facilmente e si scioglie bene in cottura, così il sapore si distribuisce in modo uniforme.\n\n## Come usarlo\n\nAggiungilo a sughi, arrosti e verdure saltate: mezzo cucchiaino è un buon punto di partenza per due persone. Nelle preparazioni lunghe mettilo all'inizio, per un sapore più rotondo.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/aglio-granulare.webp",
       "icona": "🧄",
       "visibile": true,
       "tr": {
@@ -70,7 +70,7 @@
       "prezzo_centesimi": 299,
       "descrizione": "Per dolci, vin brulé e infusi. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Bastoncini di cannella dal profumo caldo e dolce, ideali quando vuoi un aroma che si rilascia piano nel liquido. Si possono riutilizzare più di una volta, finché profumano ancora.\n\n## Come usarlo\n\nMetti un bastoncino nel latte, nel vin brulé o nelle composte e toglilo a fine cottura. Per un infuso lascialo in acqua calda per qualche minuto.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/cannella-bastoncini.webp",
       "icona": "🪵",
       "visibile": true,
       "tr": {
@@ -89,7 +89,7 @@
       "prezzo_centesimi": 249,
       "descrizione": "Per dolci, creme e colazioni. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Cannella in polvere fine, pronta da spolverare o da impastare. Ha un aroma dolce e avvolgente che sta bene con frutta, cioccolato e latte.\n\n## Come usarlo\n\nAggiungila a torte, creme e porridge, oppure spolverala sul cappuccino. Parti da un pizzico e regola a gusto.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/cannella-macinata.webp",
       "icona": "🪵",
       "visibile": true,
       "tr": {
@@ -108,7 +108,7 @@
       "prezzo_centesimi": 279,
       "descrizione": "Per risotti, zuppe e golden milk. Sacchetto richiudibile con clip.",
       "descrizione_completa": "La curcuma macinata dà un bel colore giallo dorato e un sapore terroso, leggermente amarognolo. È alla base di molti piatti della cucina indiana e mediorientale.\n\n## Come usarlo\n\nUsala in risotti, zuppe e riso pilaf, oppure nel golden milk con latte caldo e un pizzico di pepe. Attenzione: macchia stoviglie e taglieri.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/curcuma-macinata.webp",
       "icona": "🟡",
       "visibile": true,
       "tr": {
@@ -127,7 +127,7 @@
       "prezzo_centesimi": 279,
       "descrizione": "Per biscotti, infusi e piatti orientali. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Lo zenzero macinato ha un gusto piccante e fresco, con una nota agrumata. Si usa sia nei dolci sia nei piatti salati.\n\n## Come usarlo\n\nAggiungilo a biscotti, pan di zenzero, infusi e piatti saltati in padella. In cottura il piccante si ammorbidisce, quindi puoi dosarlo a gusto.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/zenzero-macinato.webp",
       "icona": "🫚",
       "visibile": true,
       "tr": {
@@ -146,7 +146,7 @@
       "prezzo_centesimi": 299,
       "descrizione": "Per besciamella, ripieni e dolci. Sacchetto richiudibile con clip.",
       "descrizione_completa": "La noce moscata macinata ha un aroma caldo, dolce e leggermente speziato. Ne basta pochissima per cambiare il carattere di un piatto.\n\n## Come usarlo\n\nÈ classica nella besciamella, nei ripieni di pasta e nelle puree, ma sta bene anche nei dolci. Usane un pizzico: un eccesso copre gli altri sapori.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/noce-moscata.webp",
       "icona": "🌰",
       "visibile": true,
       "tr": {
@@ -165,7 +165,7 @@
       "prezzo_centesimi": 249,
       "descrizione": "Per legumi, carni e piatti speziati. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Il cumino macinato ha un sapore terroso e caldo, tipico di molte cucine del Medio Oriente, dell'India e del Messico.\n\n## Come usarlo\n\nProva con legumi, carni, zuppe e verdure arrosto. Fallo scaldare un attimo nell'olio prima di aggiungere gli altri ingredienti, per far uscire l'aroma.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/cumino-macinato.webp",
       "icona": "🌾",
       "visibile": true,
       "tr": {
@@ -184,7 +184,7 @@
       "prezzo_centesimi": 249,
       "descrizione": "Per curry, marinate e pane. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Il coriandolo macinato ha un profumo fresco e agrumato, con una nota dolce. È un ingrediente base di curry e marinate.\n\n## Come usarlo\n\nMescolalo con cumino e paprika per marinare carne o verdure, oppure aggiungilo a pane e zuppe. Si abbina bene a limone e yogurt.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/coriandolo-macinato.webp",
       "icona": "🌾",
       "visibile": true,
       "tr": {
@@ -203,7 +203,7 @@
       "prezzo_centesimi": 249,
       "descrizione": "Per carni, patate e uova. Sacchetto richiudibile con clip.",
       "descrizione_completa": "La paprika dolce dà un bel colore rosso e un sapore morbido, senza piccante. È utile per dare carattere ai piatti senza coprirli.\n\n## Come usarlo\n\nSpolverala su patate, uova e carni, oppure usala nei sughi e negli stufati. In cottura non farla bruciare: aggiungila a fuoco medio o con un po' di liquido.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/paprika-dolce.webp",
       "icona": "🫑",
       "visibile": true,
       "tr": {
@@ -222,7 +222,7 @@
       "prezzo_centesimi": 299,
       "descrizione": "Per arrosti, barbecue e salse. Sacchetto richiudibile con clip.",
       "descrizione_completa": "La paprika affumicata ha il sapore della paprika con una nota di legno e fumo. Con poca quantità si ottiene un gusto da brace anche senza griglia.\n\n## Come usarlo\n\nUsala su arrosti, legumi e salse, o nella marinata di carne e verdure. Parti da un cucchiaino scarso e assaggia.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/paprika-affumicata.webp",
       "icona": "🫑",
       "visibile": true,
       "tr": {
@@ -241,7 +241,7 @@
       "prezzo_centesimi": 249,
       "descrizione": "Per pane, insalate e piatti asiatici. Contiene sesamo. Sacchetto richiudibile con clip.",
       "descrizione_completa": "I semi di sesamo hanno un sapore delicato di nocciola che si accentua con la tostatura. Danno croccantezza e profumo ai piatti.\n\n## Come usarlo\n\nSpargili su pane, insalate e piatti asiatici, oppure tostali un minuto in padella asciutta. Contengono sesamo, un allergene da segnalare.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/semi-di-sesamo.webp",
       "icona": "⚪",
       "visibile": true,
       "tr": {
@@ -260,7 +260,7 @@
       "prezzo_centesimi": 199,
       "descrizione": "Per pizza, pomodoro e pesce. Sacchetto richiudibile con clip.",
       "descrizione_completa": "L'origano secco è l'erba più usata nella cucina italiana, con un profumo intenso e leggermente piccante.\n\n## Come usarlo\n\nMettilo su pizza e pomodoro, oppure su pesce e verdure grigliate. Aggiungilo a fine cottura per mantenere il profumo.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/origano.webp",
       "icona": "🌿",
       "visibile": true,
       "tr": {
@@ -279,7 +279,7 @@
       "prezzo_centesimi": 199,
       "descrizione": "Per sughi, insalate e piatti estivi. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Il basilico essiccato conserva il profumo dolce e fresco della pianta e si usa tutto l'anno. Non ha l'intensità di quello fresco, ma è comodo e sempre pronto.\n\n## Come usarlo\n\nAggiungilo a sughi, insalate e piatti estivi, anche a fine cottura. Usane meno di quanto faresti con il fresco: l'essiccato è più concentrato.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/basilico.webp",
       "icona": "🌿",
       "visibile": true,
       "tr": {
@@ -298,7 +298,7 @@
       "prezzo_centesimi": 199,
       "descrizione": "Per arrosti, patate e focacce. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Rosmarino tagliato in pezzetti piccoli, dal profumo resinoso e deciso. È comodo perché non serve tritarlo.\n\n## Come usarlo\n\nPerfetto per arrosti, patate al forno e focacce. Mescolalo con un po' d'olio prima di usarlo, così profuma meglio.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/rosmarino.webp",
       "icona": "🌿",
       "visibile": true,
       "tr": {
@@ -317,7 +317,7 @@
       "prezzo_centesimi": 199,
       "descrizione": "Per carni, funghi e salse. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Il timo ha un aroma delicato, fresco e leggermente floreale, che si sposa con molti ingredienti.\n\n## Come usarlo\n\nUsalo con carni, funghi, salse e verdure al forno. Resiste bene alla cottura, quindi puoi metterlo anche all'inizio.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/timo.webp",
       "icona": "🌿",
       "visibile": true,
       "tr": {
@@ -336,7 +336,7 @@
       "prezzo_centesimi": 199,
       "descrizione": "Per burro e salvia, arrosti e ripieni. Sacchetto richiudibile con clip.",
       "descrizione_completa": "La salvia secca ha un profumo intenso, balsamico e lievemente amaro. È un classico della cucina italiana.\n\n## Come usarlo\n\nIdeale per burro e salvia, arrosti e ripieni. Scaldala brevemente nel burro per far uscire l'aroma.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/salvia.webp",
       "icona": "🌿",
       "visibile": true,
       "tr": {
@@ -355,7 +355,7 @@
       "prezzo_centesimi": 199,
       "descrizione": "Per pesce, sughi e insalate. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Il prezzemolo secco porta un tocco verde e un sapore fresco e leggero nei piatti.\n\n## Come usarlo\n\nUsalo su pesce, sughi e insalate, anche all'ultimo per colore e profumo. Ha meno intensità del fresco, quindi puoi abbondare.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/prezzemolo.webp",
       "icona": "🌿",
       "visibile": true,
       "tr": {
@@ -374,7 +374,7 @@
       "prezzo_centesimi": 199,
       "descrizione": "Per dolci, insalate e infusi. Sacchetto richiudibile con clip.",
       "descrizione_completa": "La menta piperita ha un profumo fresco e intenso, con una nota mentolata che si sente subito.\n\n## Come usarlo\n\nAggiungila a dolci, insalate e salse allo yogurt, oppure prepara un infuso lasciandola in acqua calda per qualche minuto.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/menta-piperita.webp",
       "icona": "🌿",
       "visibile": true,
       "tr": {
@@ -393,7 +393,7 @@
       "prezzo_centesimi": 299,
       "descrizione": "Da macinare al momento su qualsiasi piatto. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Il pepe nero in grani conserva l'aroma fino al momento della macinatura. Il suo sapore è caldo, deciso e piccante.\n\n## Come usarlo\n\nMacinalo al momento su carne, pasta, uova e formaggi. Per un risultato migliore usa un macinapepe.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/pepe-nero-grani.webp",
       "icona": "⚫",
       "visibile": true,
       "tr": {
@@ -412,7 +412,7 @@
       "prezzo_centesimi": 279,
       "descrizione": "Per carni, sughi e uova. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Pepe nero già macinato, comodo da dosare direttamente dal sacchetto. Sapore caldo e piccante, adatto a quasi tutti i piatti.\n\n## Come usarlo\n\nUsalo su carni, sughi e uova, in cottura o a fine piatto. Aggiungine poco alla volta e assaggia.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/pepe-nero-macinato.webp",
       "icona": "⚫",
       "visibile": true,
       "tr": {
@@ -431,7 +431,7 @@
       "prezzo_centesimi": 349,
       "descrizione": "Per salse chiare, pesce e purè. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Il pepe bianco ha un sapore più delicato e meno aromatico del nero e non lascia puntini scuri nei piatti chiari.\n\n## Come usarlo\n\nSi usa in salse chiare, besciamella, pesce e purè. Macinalo al momento per sentire tutto l'aroma.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/pepe-bianco-grani.webp",
       "icona": "⚪",
       "visibile": true,
       "tr": {
@@ -469,7 +469,7 @@
       "prezzo_centesimi": 299,
       "descrizione": "Per pizza, tacos e salse. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Fiocchi di peperoncino jalapeño, con un piccante moderato e un sapore leggermente vegetale.\n\n## Come usarlo\n\nSpargili su pizza, tacos, salse e uova. Puoi anche portarli in tavola per regolare il piccante a gusto di ciascuno.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/peperoncino-jalapeno.webp",
       "icona": "🌶️",
       "visibile": true,
       "tr": {
@@ -488,7 +488,7 @@
       "prezzo_centesimi": 249,
       "descrizione": "Da spargere sulla pizza prima o dopo la cottura. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Una miscela di erbe aromatiche e spezie pensata per la pizza. La composizione esatta è indicata sull'etichetta.\n\n## Come usarlo\n\nSpargila sulla pizza prima o dopo la cottura. Sta bene anche su pomodoro fresco, focacce e verdure al forno.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/miscela-pizza.webp",
       "icona": "🍕",
       "visibile": true,
       "tr": {
@@ -507,7 +507,7 @@
       "prezzo_centesimi": 349,
       "descrizione": "Per curry, legumi e riso. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Il garam masala è una miscela di spezie tipica della cucina indiana, calda e aromatica. La composizione esatta è indicata sull'etichetta.\n\n## Come usarlo\n\nAggiungilo verso fine cottura a curry, legumi e riso, per mantenere l'aroma. Bastano pochi pizzichi.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/garam-masala.webp",
       "icona": "🍛",
       "visibile": true,
       "tr": {
@@ -526,7 +526,7 @@
       "prezzo_centesimi": 299,
       "descrizione": "Per pollo, riso e verdure. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Curry in polvere: una miscela di spezie dal colore giallo e dal gusto caldo e aromatico. Gli ingredienti sono indicati sull'etichetta.\n\n## Come usarlo\n\nPer pollo, riso e verdure: fai scaldare un cucchiaino nell'olio prima di aggiungere gli altri ingredienti, così l'aroma si sprigiona meglio.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/curry-polvere.webp",
       "icona": "🍛",
       "visibile": true,
       "tr": {
@@ -545,7 +545,7 @@
       "prezzo_centesimi": 249,
       "descrizione": "Per la pasta e per condire verdure. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Un condimento pronto con aglio e peperoncino per ritrovare al volo il gusto della pasta aglio, olio e peperoncino.\n\n## Come usarlo\n\nMescolalo all'olio caldo e condisci spaghetti o verdure. Assaggia prima di salare, perché può contenere sale: controlla l'etichetta.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/condimento-aglio-olio.webp",
       "icona": "🍝",
       "visibile": true,
       "tr": {
@@ -564,7 +564,7 @@
       "prezzo_centesimi": 299,
       "descrizione": "Per carne alla griglia e in padella. Sacchetto richiudibile con clip.",
       "descrizione_completa": "Un condimento per carne alla griglia e in padella, con spezie e aromi per insaporire la superficie.\n\n## Come usarlo\n\nCospargilo sulla carne prima della cottura e lascia riposare qualche minuto. Se contiene sale, regola quello che aggiungi dopo.\n\n## Conservazione\n\nTieni il sacchetto ben chiuso con la clip, al riparo da luce, calore e umidità. Ingredienti e allergeni sono indicati sull'etichetta della confezione.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/condimento-bistecche.webp",
       "icona": "🥩",
       "visibile": true,
       "tr": {
