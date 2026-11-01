@@ -114,6 +114,6 @@ Negozio spezie in sacchetti richiudibili con clip (IT+EN), idea del formato da U
 - FATTO: 4 categorie + 28 prodotti con descrizioni H2 (layout con `markdownify`), 28 foto (barattolo di vetro + sacchetto kraft con clip), Home, Chi siamo, 3 articoli IT+EN, tolto Servizi.
 - Contenuti/pagine/articoli, UN comando: `python automation/sviluppa.py` (contenuti_spezie -> permalink_articoli -> allinea_hash en -> controlli JSON/mojibake -> commit+push; `--no-push` per provare). Per cambiare testi modifica i dizionari IT/EN e gli articoli A1-A3/B1-B3 in `automation/contenuti_spezie.py`, poi rilancia.
 - Descrizioni prodotto: `python automation/descrizioni_spezie.py` (poi `allinea_hash.py en`).
-- Foto prodotto: vedi `IMMAGINI.md` (`$HOME\Desktop\gemini_auto\core\foto_sito.py --repo <repo> --api (prompt in _data/foto_prompt.json)`). Crediti finiti: pubblica quelle fatte, non aspettare il reset.
+- Foto prodotto: `python C:\Users\mirco\Desktop\motore_immagini\motore.py foto spezieclip` (guida privata `Desktop\motore_immagini\GUIDA.md`: il motore NON sta nel repo, che e' PUBBLICO; stile in `_data/foto_prompt.json`, vedi `IMMAGINI.md`). Crediti finiti: pubblica quelle fatte, non aspettare il reset.
 - Articoli: la data NON deve essere futura (Jekyll non pubblica); usa la data di oggi.
 - DA FARE (servono dati di Mirco): pesi in grammi, email e WhatsApp in `_config.yml`, fornitore, etichette a norma (ingredienti, allergeni, lotto, scadenza). Non scrivere affermazioni su origine o produzione senza conferma.
