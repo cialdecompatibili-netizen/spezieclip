@@ -107,3 +107,13 @@ Tutto da Desktop Commander sul PC di Mirco, con Python. Il connettore GitHub non
 - Idee categorie dal mercato (ricerca 31/10/2026): nodi e schede Meshtastic (Heltec V3/V4, LILYGO T-Beam), ripetitori solari, kit modulari RAK WisBlock, tracker GPS, comunicatori portatili, kit con Raspberry Pi.
 
 - Foto prodotti (Gemini API): vedi IMMAGINI.md
+
+## SPEZIECLIP - stato e comandi (leggi questo prima di tutto)
+Sito: https://cialdecompatibili-netizen.github.io/spezieclip/ | Actions: https://github.com/cialdecompatibili-netizen/spezieclip/actions (nessun workflow: Pages si ricostruisce da solo dopo il push, NON aspettare).
+Negozio spezie in sacchetti richiudibili con clip (IT+EN), idea del formato da Ubena clip sachet: NIENTE marchio, foto o testi copiati.
+- FATTO: 4 categorie + 28 prodotti con descrizioni H2 (layout con `markdownify`), 28 foto (barattolo di vetro + sacchetto kraft con clip), Home, Chi siamo, 3 articoli IT+EN, tolto Servizi.
+- Contenuti/pagine/articoli, UN comando: `python automation/sviluppa_spezie.py` (contenuti_spezie -> permalink_articoli -> allinea_hash en -> controlli JSON/mojibake -> commit+push; `--no-push` per provare). Per cambiare testi modifica i dizionari IT/EN e gli articoli A1-A3/B1-B3 in `automation/contenuti_spezie.py`, poi rilancia.
+- Descrizioni prodotto: `python automation/descrizioni_spezie.py` (poi `allinea_hash.py en`).
+- Foto prodotto: vedi `IMMAGINI.md` (`automation/foto_spezie.py --api`). Crediti finiti: pubblica quelle fatte, non aspettare il reset.
+- Articoli: la data NON deve essere futura (Jekyll non pubblica); usa la data di oggi.
+- DA FARE (servono dati di Mirco): pesi in grammi, email e WhatsApp in `_config.yml`, fornitore, etichette a norma (ingredienti, allergeni, lotto, scadenza). Non scrivere affermazioni su origine o produzione senza conferma.
