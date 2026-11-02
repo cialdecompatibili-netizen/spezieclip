@@ -3,7 +3,7 @@ import io, json, os
 C = [
 ("spezie","Spezie","🌶️","Spices","spices"),
 ("erbe-aromatiche","Erbe aromatiche","🌿","Herbs","herbs"),
-("pepi-peperoncini","Pepi e peperoncini","🌶️","Peppers and chillies","peppers-and-chillies"),
+("pepi-peperoncini","Pepe e peperoncino","🌶️","Pepper and chilli","peppers-and-chillies"),
 ("miscele-insaporitori","Miscele e insaporitori","🧂","Blends and seasonings","blends-and-seasonings"),
 ]
 # id, nome IT, nome EN, categoria, centesimi, icona, uso IT, uso EN

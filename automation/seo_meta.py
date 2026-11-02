@@ -28,11 +28,11 @@ PAGES = {
  'en/grazie.md': 'Thank you for your order of spices and herbs. We will email you the details.',
  '_negozio/categoria-spezie.md': 'Spezie in sacchetti richiudibili con clip, da 5 a 50 g: cannella, curcuma, cumino, paprika, noce moscata e altre.',
  '_negozio/categoria-erbe-aromatiche.md': 'Erbe aromatiche essiccate in sacchetti con clip, da 5 a 50 g: origano, basilico, rosmarino, timo, salvia e altre.',
- '_negozio/categoria-pepi-peperoncini.md': 'Pepi e peperoncini in sacchetti richiudibili con clip, da 5 a 50 g: pepe nero, pepe bianco, cayenna e jalapeño.',
+ '_negozio/categoria-pepi-peperoncini.md': 'Pepe e peperoncino in sacchetti richiudibili con clip, da 5 a 50 g: pepe nero, pepe bianco, cayenna e jalapeño.',
  '_negozio/categoria-miscele-insaporitori.md': 'Miscele e insaporitori pronti in sacchetti con clip, da 5 a 50 g: curry, garam masala, condimenti per carne e pizza.',
  'en/negozio/categoria/spezie.md': 'Spices in resealable clip bags, from 5 to 50 g: cinnamon, turmeric, cumin, paprika, nutmeg and more.',
  'en/negozio/categoria/erbe-aromatiche.md': 'Dried herbs in clip bags, from 5 to 50 g: oregano, basil, rosemary, thyme, sage and more.',
- 'en/negozio/categoria/pepi-peperoncini.md': 'Peppers and chillies in resealable clip bags, from 5 to 50 g: black pepper, white pepper, cayenne and jalapeño.',
+ 'en/negozio/categoria/pepi-peperoncini.md': 'Pepper and chilli in resealable clip bags, from 5 to 50 g: black pepper, white pepper, cayenne and jalapeño.',
  'en/negozio/categoria/miscele-insaporitori.md': 'Ready blends and seasonings in clip bags, from 5 to 50 g: curry, garam masala, steak and pizza seasonings.',
 }
 

@@ -22,12 +22,12 @@
       }
     },
     {
-      "nome": "Pepi e peperoncini",
+      "nome": "Pepe e peperoncino",
       "id": "pepi-peperoncini",
       "icona": "🌶️",
       "tr": {
         "en": {
-          "nome": "Peppers and chillies"
+          "nome": "Pepper and chilli"
         }
       }
     },
