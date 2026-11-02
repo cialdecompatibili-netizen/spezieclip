@@ -30,7 +30,7 @@
     e.preventDefault();build();
     var g=a.getAttribute('data-lb');
     items=[].slice.call(document.querySelectorAll('a[data-lb="'+g+'"]')).filter(function(x){return !x.closest('[hidden]');});
-    idx=Math.max(0,items.indexOf(a));
+    idx=Math.max(0,items.indexOf(a));[].forEach.call(box.querySelectorAll('.exlb-p,.exlb-n'),function(b){b.style.display=items.length<2?'none':'';});
     show();box.classList.add('on');document.documentElement.style.overflow='hidden';
   });
   document.addEventListener('click',function(e){
