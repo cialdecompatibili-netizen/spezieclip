@@ -81,3 +81,20 @@
 @media(max-width:900px){.gc-hero-in,.gc-2c,.gc-det{grid-template-columns:1fr}.gc-grid,.gc-plat{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.gc-grid,.gc-plat{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.gc *{transition:none!important}}
+/* LINEE home: pannelli in vetro su foto chiara (linee-bg.webp), spotlight col mouse in hover. Tinte ingredienti --t1..--t4: nei cloni cambiarle. */
+.gc .lin{position:relative;isolation:isolate;background:#f8f0e8 url(../images/linee-bg.webp) center/cover no-repeat;--t1:#d9a21b;--t2:#6f8f4e;--t3:#c8432b;--t4:var(--gc-acc)}
+.gc .lin::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(255,255,255,.80),rgba(255,255,255,.52) 45%,rgba(255,255,255,.80));pointer-events:none}
+.lin-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:2.2rem}
+.lin-c1{--t:var(--t1)}.lin-c2{--t:var(--t2)}.lin-c3{--t:var(--t3)}.lin-c4{--t:var(--t4)}
+.lin-card{--mx:50%;--my:0%;position:relative;overflow:hidden;padding:1.6rem 1.5rem 1.5rem;border-radius:20px;background:rgba(255,255,255,.66);-webkit-backdrop-filter:blur(14px) saturate(1.15);backdrop-filter:blur(14px) saturate(1.15);border:1px solid rgba(255,255,255,.95);box-shadow:inset 0 1px 0 #fff,0 10px 30px rgba(107,58,18,.10);transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s,background .35s}
+.lin-card::before{content:"";position:absolute;inset:0;background:radial-gradient(260px circle at var(--mx) var(--my),color-mix(in srgb,var(--t) 26%,transparent),transparent 70%);opacity:0;transition:opacity .35s;pointer-events:none}
+.lin-card::after{content:"";position:absolute;left:1.5rem;right:1.5rem;bottom:0;height:3px;border-radius:3px 3px 0 0;background:var(--t);transform:scaleX(0);transform-origin:left;transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.lin-card>*{position:relative;z-index:1}
+.lin-dot{display:block;width:46px;height:46px;margin-bottom:1.1rem;border-radius:50%;background:radial-gradient(circle at 32% 28%,#fff 0,color-mix(in srgb,var(--t) 55%,#fff) 30%,var(--t) 70%);box-shadow:0 6px 16px color-mix(in srgb,var(--t) 40%,transparent),inset 0 -4px 8px rgba(0,0,0,.08);transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.lin-card h3{font-family:var(--gc-head);font-weight:700;font-size:1.3rem;line-height:1.2;margin:0 0 .7rem;color:var(--gc-ink)}
+.lin-card ul{list-style:none;margin:0;padding:0}
+.lin-card li{padding:.5rem 0;border-top:1px solid rgba(14,17,22,.08);color:var(--gc-mut);font-size:.94rem;line-height:1.45;transition:transform .35s cubic-bezier(.2,.7,.2,1),color .3s}
+.lin-all{margin:1.8rem 0 0}
+@media(hover:hover){.lin-card:hover{transform:translateY(-6px);background:rgba(255,255,255,.82);box-shadow:inset 0 1px 0 #fff,0 22px 44px rgba(107,58,18,.18)}.lin-card:hover::before{opacity:1}.lin-card:hover::after{transform:scaleX(1)}.lin-card:hover .lin-dot{transform:scale(1.14) rotate(-8deg)}.lin-card:hover li{transform:translateX(5px);color:var(--gc-ink)}.lin-card:hover li:nth-child(2){transition-delay:.04s}.lin-card:hover li:nth-child(3){transition-delay:.08s}}
+@media(max-width:900px){.lin-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.lin-grid{grid-template-columns:1fr}}

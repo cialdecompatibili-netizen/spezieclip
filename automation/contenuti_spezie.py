@@ -11,14 +11,18 @@ def card(title, items=None, text=None, n=None):
     if items: s += '<ul>' + ''.join('<li>%s</li>' % i for i in items) + '</ul>'
     if text: s += '<p>%s</p>' % text
     return s + '</div>'
+# LINEE home: pannelli in vetro (classe .lin in assets/css/gaming.css) con spotlight che segue il mouse. Niente numeri: non e' una sequenza.
+LIN_JS = '<script>(function(){if(!window.matchMedia||!matchMedia("(hover:hover)").matches)return;document.querySelectorAll(".lin-card").forEach(function(c){c.addEventListener("pointermove",function(e){var r=c.getBoundingClientRect();c.style.setProperty("--mx",e.clientX-r.left+"px");c.style.setProperty("--my",e.clientY-r.top+"px")})})})();</script>'
+def lin_card(i, title, items):
+    return '<article class="lin-card lin-c%d"><i class="lin-dot" aria-hidden="true"></i><h3>%s</h3><ul>%s</ul></article>' % (i + 1, title, ''.join('<li>%s</li>' % x for x in items))
 def home(L):
     t = L
     hero = ('<div class="gc"><section class="ent-hero"><div class="gc-wrap gc-hero-in"><div><p class="gc-eyebrow">%s</p><h1 class="gc-h1">%s</h1><p class="gc-lead">%s</p>'
       '<div class="gc-act"><a class="gc-btn gc-btn-a" href="__BASEURL__%s">%s</a><a class="gc-btn gc-btn-o" href="#linee">%s</a></div></div><div class="ent-cycle">%s</div></div></section></div>'
       % (t['eb'], t['h1'], t['lead'], t['shop'], t['b1'], t['b2'], ''.join('<div><b>%s</b><span>%s</span></div>' % x for x in t['cyc'])))
-    linee = ('<div class="gc"><section class="gc-sec gc-soft" id="linee"><div class="gc-wrap"><p class="gc-eyebrow">%s</p><h2 class="gc-h2">%s</h2><div class="gc-plat ent-4">%s</div>'
-      '<p style="margin-top:1.6rem"><a class="gc-link" href="__BASEURL__%s">%s</a></p></div></section></div>'
-      % (t['l_eb'], t['l_h2'], ''.join(card(a, items=b, n='0%d' % (i + 1)) for i, (a, b) in enumerate(t['linee'])), t['shop'], t['l_all']))
+    linee = ('<div class="gc"><section class="gc-sec lin" id="linee"><div class="gc-wrap"><p class="gc-eyebrow">%s</p><h2 class="gc-h2">%s</h2><div class="lin-grid">%s</div>'
+      '<p class="lin-all"><a class="gc-link" href="__BASEURL__%s">%s</a></p></div></section></div>'
+      % (t['l_eb'], t['l_h2'], ''.join(lin_card(i, a, b) for i, (a, b) in enumerate(t['linee'])), t['shop'], t['l_all'])) + LIN_JS
     perchi = ('<div class="gc"><section class="gc-sec" id="perchi"><div class="gc-wrap"><p class="gc-eyebrow">%s</p><h2 class="gc-h2">%s</h2><div class="gc-plat ent-4">%s</div></div></section></div>'
       % (t['p_eb'], t['p_h2'], ''.join(card(a, items=b) for a, b in t['perchi'])))
     metodo = ('<div class="gc"><section class="gc-sec gc-soft" id="metodo"><div class="gc-wrap"><p class="gc-eyebrow">%s</p><h2 class="gc-h2">%s</h2><div class="gc-plat ent-4">%s</div></div></section></div>'
